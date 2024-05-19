@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>HTML Tables Reference</title>
+  </head>
+  <body>
+    <main class="container">
+      <!-- introduction -->
+      <section class="intro">
+          <h1 class="main-title">HTML Table Reference</h1>
+          <p class="main-title-text">
+            A reference for table tags and table attributes. Visit
+            <a
+              class="link link--external"
+              href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables"
+              target="_blank"
+              rel="noopener noreferrer"
+              >HTML table basics Overview
+            </a>
+            on MDN for more information.
+          </p>
+      </section>
+      <!-- table for table tags -->
+      <article>
+        <h2 id="HTML-table-tags" class="table-title">HTML table tags</h2>
+
+        <table aria-labelledby="HTML-table-tags" class="table">
+              <!-- table header -->
+              <thead class="table-head">
+                <tr>
+                  <th class="table-head-title"  scope="col">Tag</th>
+                  <th class="table-head-title"  scope="col">Name</th>
+                  <th class="table-head-title"  scope="col">Description</th>
+                </tr>
+              </thead>
+              <!-- table body -->
+              <tbody class="table-body">
+                <!-- first row -->
+                <tr>
+                  <td><code class="code">&lt;table&gt;</code></td>
+                  <td>Table</td>
+                  <td>The container element for all HTML tables.</td>
+                </tr>
+                <!-- second row -->
+                <tr>
+                  <td><code class="code">&lt;thead&gt;</code></td>
+                  <td>Table Head</td>
+                  <td>Groups the header content in a table.</td>
+                </tr>
+                <!-- third row -->
+                <tr>
+                  <td><code class="code">&lt;tbody&gt;</code></td>
+                  <td>Table Body</td>
+                  <td>
+                    Groups the body content in a table, used after
+                    <code>&lt;thead&gt;</code> and before
+                    <code>&lt;tfoot&gt;</code> if used.
+                  </td>
+                </tr>
+                <!-- fourth row -->
+                <tr>
+                  <td><code class="code">&lt;tfoot&gt;</code></td>
+                  <td>Table Footer</td>
+                  <td>
+                    Groups the footer content in a table, used after
+                    <code>&lt;tbody&gt;</code> or <code>&lt;thead&gt;</code> if
+                    <code>&lt;tbody&gt;</code> is not used.
+                  </td>
+                </tr>
+                <!-- fifth row -->
+                <tr>
+                  <td><code class="code">&lt;tr&gt;</code></td>
+                  <td>Table Row</td>
+                  <td>
+                    Defines a row in a table, containing one or more
+                    <code>&lt;td&gt;</code> or <code>&lt;th&gt;</code> elements.
+                  </td>
+                </tr>
+                <!-- sixth row -->
+                <tr>
+                  <td><code class="code">&lt;td&gt;</code></td>
+                  <td>Table Data</td>
+                  <td>Defines a cell in a table that contains data.</td>
+                </tr>
+                <!-- seventh row -->
+                <tr>
+                  <td><code class="code">&lt;th&gt;</code></td>
+                  <td>Table Header</td>
+                  <td>
+                    Represents a header cell in a table that can be used at the
+                    start of a row or column. It comes with default styling (bold
+                    and centred text). Typically used within the
+                    <code>&lt;thead&gt;</code> element.
+                  </td>
+                </tr>
+              </tbody>
+              <tfoot class="table-footer"></tfoot>
+        </table>
+      </article>
+
+      <!-- table for table attributes  -->
+      <article>
+        <h2 id="HTML-table-attributes" class="table-title">HTML Table attributes</h2>
+
+        <table
+          aria-labelledby="HTML-table-attributes"
+          class="table"
+        >
+          <!-- table header -->
+          <thead class="table-head">
+            <tr>
+              <th class="table-head-title"  scope="col">Attribute</th>
+              <th class="table-head-title"  scope="col">Name</th>
+              <th class="table-head-title"  scope="col">Description</th>
+            </tr>
+          </thead>
+          <!-- table body -->
+          <tbody class="table-body">
+            <!-- first row -->
+            <tr>
+              <td><code class="code">colspan</code></td>
+              <td>Column Span</td>
+              <td>How many columns the table cell spans.</td>
+            </tr>
+            <!-- second row -->
+            <tr>
+              <td><code class="code">rowspan</code></td>
+              <td>Row span</td>
+              <td>How many rows a table cell spans.</td>
+            </tr>
+          </tbody>
+          <tfoot class="table-footer"></tfoot>
+        </table>
+      </article>
+      <section class="table-accessibility">
+        <h2>Tables and Accessibility</h2>
+        <p>
+          If you use the semantic table elements above correctly, you are
+          already making good progress towards a well-structured table. However,
+          there are a few additional things you can add to your tables to
+          increase accessibility for <em>all</em> users.
+        </p>
+        <p>
+          For more information, visit the MDN guide for
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced"
+            class="link link-external"
+            target="_blank"
+            rel="noopener noreferrer"
+            >HTML table advanced features and accessibility</a
+          >.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
