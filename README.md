@@ -1,4 +1,4 @@
-#Basic table for Codecademy cheatsheet project
+# Basic table for Codecademy cheatsheet project
 
 *Screenshot:*
 
