@@ -6,5 +6,5 @@
 
  *Live Preview:*
 
-[Basic HTML table]()
+[Basic HTML table](https://jo-with-vision.github.io/codecademy-tables-cheatsheet/)
 
